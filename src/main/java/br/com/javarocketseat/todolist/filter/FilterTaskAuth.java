@@ -1,7 +1,7 @@
 package br.com.javarocketseat.todolist.filter;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
-import br.com.javarocketseat.todolist.user.IUserRepository;
+import br.com.javarocketseat.todolist.repository.IUserRepository;
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

@@ -1,5 +1,7 @@
-package br.com.javarocketseat.todolist.task;
+package br.com.javarocketseat.todolist.controller;
 
+import br.com.javarocketseat.todolist.repository.ITaskRepository;
+import br.com.javarocketseat.todolist.model.TaskModel;
 import br.com.javarocketseat.todolist.utils.Utils;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;

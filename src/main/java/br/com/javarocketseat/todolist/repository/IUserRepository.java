@@ -1,5 +1,6 @@
-package br.com.javarocketseat.todolist.user;
+package br.com.javarocketseat.todolist.repository;
 
+import br.com.javarocketseat.todolist.model.UserModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

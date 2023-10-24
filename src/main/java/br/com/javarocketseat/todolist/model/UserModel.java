@@ -1,4 +1,4 @@
-package br.com.javarocketseat.todolist.user;
+package br.com.javarocketseat.todolist.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

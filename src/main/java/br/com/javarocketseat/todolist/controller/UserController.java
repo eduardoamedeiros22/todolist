@@ -1,6 +1,8 @@
-package br.com.javarocketseat.todolist.user;
+package br.com.javarocketseat.todolist.controller;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
+import br.com.javarocketseat.todolist.repository.IUserRepository;
+import br.com.javarocketseat.todolist.model.UserModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
